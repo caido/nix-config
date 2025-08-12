@@ -25,6 +25,7 @@
     ./git.nix
     ./zsh.nix
     ./aliases.nix
+    ./cursor.nix
   ];
 }
 

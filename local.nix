@@ -9,4 +9,5 @@
   shell   = "zsh";               # "zsh" | "bash" | "fish"
   editor  = "vim";               # "cursor" | "nvim" | "vim"
   gitSign = false;               # set true later when we wire 1Password SSH signing
+  vimMode = true;                # enable vim mode in Cursor/VS Code
 }
