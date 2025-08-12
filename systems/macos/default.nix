@@ -5,6 +5,7 @@
 		home-manager
 		docker	
 		docker-compose
+		ripgrep
 	];
 
 

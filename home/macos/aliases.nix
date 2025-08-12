@@ -16,5 +16,8 @@
     
     # Quick access to common directories
     p = "cd ~/Projects";
+
+    # Overwrites
+    grep = "rg";
   };
 }
