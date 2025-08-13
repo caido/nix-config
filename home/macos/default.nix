@@ -13,7 +13,7 @@
 
 		# Development
 		code-cursor
-		alacritty
+		iterm2
 
 		# Browsers
 		firefox
