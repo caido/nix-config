@@ -2,8 +2,6 @@
 
 Single repo to bootstrap macOS, NixOS, and non-NixOS Linux with Nix.  
 
-**Edit one file per machine:** `hosts/<host>/local.nix`.
-
 
 ## Quickstart (macOS first run)
 
