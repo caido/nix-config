@@ -6,6 +6,7 @@
 		docker	
 		docker-compose
 		ripgrep
+		mise
 	];
 
 

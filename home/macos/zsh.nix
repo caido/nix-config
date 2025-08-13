@@ -41,6 +41,9 @@
       
       # Continuation prompt
       PS2='%F{red}→ %f'
+
+      # Activate mise
+      eval "$(mise activate zsh)"
     '';
   };
 }
