@@ -13,11 +13,6 @@
       # Enable prompt substitution
       setopt PROMPT_SUBST
       
-      # Load secrets file if it exists
-      if [[ -f ~/.secrets.local ]]; then
-        source ~/.secrets.local
-      fi
-      
       # Git status function
       git_status() {
         # Check if we're in a git repository first
@@ -41,7 +36,7 @@
       }
       
       # Main prompt
-      PROMPT='%F{green}%n%f@%F{yellow}%m%f %F{cyan}%1~%f$(git_status)
+      PROMPT='%F{green}%n%f@%F{yellow}%m%f %F{cyan}%~%f$(git_status)
       %F{magenta}❯%f '
       
       # Continuation prompt
