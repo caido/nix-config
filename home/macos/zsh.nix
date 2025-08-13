@@ -13,6 +13,11 @@
       # Enable prompt substitution
       setopt PROMPT_SUBST
       
+      # Load secrets file if it exists
+      if [[ -f ~/.secrets.local ]]; then
+        source ~/.secrets.local
+      fi
+      
       # Git status function
       git_status() {
         # Check if we're in a git repository first
