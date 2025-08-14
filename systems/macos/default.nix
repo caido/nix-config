@@ -7,6 +7,7 @@
 		docker-compose
 		ripgrep
 		mise
+		eza
 	];
 
 

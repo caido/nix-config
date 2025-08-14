@@ -19,5 +19,6 @@
 
     # Overwrites
     grep = "rg";
+    ls = "eza";
   };
 }
