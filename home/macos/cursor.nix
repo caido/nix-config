@@ -6,9 +6,8 @@
     mutableExtensionsDir = false;
     profiles.default = {
       extensions = with pkgs.vscode-extensions; [
-        # Vue extensions
         vue.volar
-
+        dbaeumer.vscode-eslint
       ] ++ (if local.vimMode then [ vscodevim.vim ] else []);
 
       userSettings = {
