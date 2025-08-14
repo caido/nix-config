@@ -13,6 +13,9 @@
       userSettings = {
         "extensions.autoUpdate" = false;
         "extensions.autoCheckUpdates" = false;
+        "editor.codeActionsOnSave" = {
+          "source.fixAll" = "explicit";
+        };
       };
     };
   };
