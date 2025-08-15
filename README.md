@@ -11,7 +11,7 @@ Single repo to bootstrap macOS, NixOS, and non-NixOS Linux with Nix.
 
 ```bash
 xcode-select --install || true
-sh <(curl -L https://nixos.org/nix/install) --daemon
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --determinate
 ```
 
 2. Setup system 
