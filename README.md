@@ -2,7 +2,6 @@
 
 Single repo to bootstrap macOS, NixOS, and non-NixOS Linux with Nix.  
 
-
 ## Quickstart (macOS first run)
 
 ### macOS
@@ -12,9 +11,10 @@ Single repo to bootstrap macOS, NixOS, and non-NixOS Linux with Nix.
 ```bash
 xcode-select --install || true
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --determinate
+exec "$SHELL" -l
 ```
 
-2. Setup system 
+2. Setup system
 
 ```bash
 sudo nix run \

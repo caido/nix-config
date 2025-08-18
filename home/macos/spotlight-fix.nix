@@ -11,7 +11,7 @@
         rm -rf "$HOME/Applications/Nix-Apps"/*
 
         # Get the target of the symlink
-        NIXAPPS=$(readlink -f "$HOME/.nix-profile/Applications")
+        NIXAPPS=$(readlink -f "$HOME/Applications/Home Manager Apps")
 
         # For each application
         for app_source in "$NIXAPPS"/*; do
