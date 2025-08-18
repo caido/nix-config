@@ -22,6 +22,7 @@
         };
         "vue.inlayHints.destructuredProps" = true;
         "vue.inlayHints.inlineHandlerLeading" = true;
+        "terminal.integrated.defaultProfile.osx" = "zsh";
       };
     };
   };
