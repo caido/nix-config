@@ -8,6 +8,10 @@
       extensions = with pkgs.vscode-extensions; [
         vue.volar
         dbaeumer.vscode-eslint
+        bradlc.vscode-tailwindcss
+        davidanson.vscode-markdownlint
+        graphql.vscode-graphql-syntax
+        aaron-bond.better-comments
       ] ++ (if local.vimMode then [ vscodevim.vim ] else []);
 
       userSettings = {
@@ -16,6 +20,8 @@
         "editor.codeActionsOnSave" = {
           "source.fixAll" = "explicit";
         };
+        "vue.inlayHints.destructuredProps" = true;
+        "vue.inlayHints.inlineHandlerLeading" = true;
       };
     };
   };
