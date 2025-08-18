@@ -14,10 +14,6 @@
 		# Development
 		code-cursor
 		iterm2
-
-		# Browsers
-		firefox
-		google-chrome
   ];
 
   imports = [
