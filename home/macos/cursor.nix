@@ -13,6 +13,7 @@
         graphql.vscode-graphql-syntax
         aaron-bond.better-comments
         eamodio.gitlens
+        github.vscode-github-actions
       ] ++ (if local.vimMode then [ vscodevim.vim ] else []);
 
       userSettings = {
