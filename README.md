@@ -23,11 +23,17 @@ sudo nix run \
   --flake ./#macos
 ```
 
-3. Setup home
+3. Update the nix.local
+
+Update the nix.local with the correct username, email and additional config changes you'd like.
+
+4. Setup home
 
 ```bash
 home-manager switch --flake .#user@macos
 ```
+
+Reload your terminal. You should now see a new zshrc prompt showing that the home-manager's dotfiles are loaded.
 
 ## Rebuilding
 
