@@ -6,7 +6,6 @@
   home.packages = with pkgs; [
 		# Chat Apps
 		slack
-		discord
 
 		# AI
 		chatgpt
