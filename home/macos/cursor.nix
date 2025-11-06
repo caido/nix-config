@@ -14,6 +14,7 @@
         aaron-bond.better-comments
         eamodio.gitlens
         github.vscode-github-actions
+        rust-lang.rust-analyzer
       ] ++ (if local.vimMode then [ vscodevim.vim ] else []);
 
       userSettings = {
