@@ -12,6 +12,9 @@
     initContent = ''
       # Enable prompt substitution
       setopt PROMPT_SUBST
+
+      # PATH
+      export PATH="$HOME/.local/bin:$PATH"
       
       # Git status function
       git_status() {
