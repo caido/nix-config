@@ -6,7 +6,6 @@
 		docker	
 		docker-compose
 		ripgrep
-		mise
 		eza
 		nodejs_22
 	];
