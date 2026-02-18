@@ -46,3 +46,13 @@ sudo darwin-rebuild switch --flake ./#macos
 # Rebuild user
 home-manager switch --flake .#user@macos
 ```
+
+## Upgrading packages
+
+To upgrade your packages (nixpkgs, home-manager, and other flake inputs), run:
+
+```bash
+nix flake update
+```
+
+Then rebuild (see [Rebuilding](#rebuilding) above).
