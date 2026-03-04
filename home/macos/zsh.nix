@@ -15,6 +15,11 @@
 
       # PATH
       export PATH="$HOME/.local/bin:$PATH"
+
+      # Homebrew (Apple Silicon)
+      if [[ -x /opt/homebrew/bin/brew ]]; then
+        eval "$(/opt/homebrew/bin/brew shellenv)"
+      fi
       
       # Git status function
       git_status() {
