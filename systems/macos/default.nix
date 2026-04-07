@@ -7,7 +7,7 @@
 		docker-compose
 		ripgrep
 		eza
-		nodejs_22
+		nodejs_24
 	];
 
 
